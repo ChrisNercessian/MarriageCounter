@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <h1>Marriage Time Counter</h1>
+</head>
+<body>
+    <div class="box" id="box">
+        <form id="form">
+            <label for="wname">Wife's name:</label><br>
+            <input type="text" id="wname"><br>
+
+            <label for="hname">Husband's name:</label><br>
+            <input type="text" id="hname"><br>
+
+            <label for="date">Day of wedding (eastern time):</label><br>
+            <input type="datetime-local" id="date"><br>
+
+            <label for="love">Do you love eachother?</label>
+            <input type="checkbox" id="love" ><br>
+
+            <label for="love1">Are you sure?</label>
+            <input type="checkbox" id="love1"><br>
+
+            
+            <input onclick="CoupleName()" type="submit" value="Sumbit"><br>
+
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>

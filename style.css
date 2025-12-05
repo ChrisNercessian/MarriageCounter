@@ -1,0 +1,50 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    background-image: linear-gradient(to bottom left, purple 50%, blue 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 400px;
+    height: 310px;
+    border-style: dashed;
+    border-color: orange;
+    border-width: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-wrap: wrap;      
+    gap: 10px 20px;       
+           
+   
+
+}
+h1{
+    margin: 0 ;
+    text-align: center;
+    font-family: "Brush Script Mt", "Lucida Handwriting", cursive;
+    font-size: 75px;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    
+    
+}
+label{
+    color: orange;
+    margin: 10px;
+}
+input{
+    border-color: black;
+    margin: 10px;
+}
